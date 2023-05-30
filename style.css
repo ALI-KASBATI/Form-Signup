@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+}
+form {
+    max-width: 480px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+h1 {
+    background-color: limegreen;
+    color: white;
+    padding: 7px;
+}
+input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea,
+select {
+    width: 100%;
+    padding: 9px;
+    background-color: lightgray;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+input[type="radio"] {
+    margin-top: 8px;
+}
+.form-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.form-group label {
+    margin-right: 10px;
+    min-width: 100px;
+    font-weight: bold;
+}
+.form-group.radio-group label {
+    min-width: auto;
+}
+.form-group.radio-group input[type="radio"] {
+    margin-top: 0;
+    margin-right: 5px;
+}
+button[type="submit"] {
+    display: block;
+    margin: 0 auto;
+    background-color: limegreen;
+    color: white;
+    padding: 15px 25px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 20px;
+    cursor: pointer;
+}
